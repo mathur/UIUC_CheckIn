@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UIUC Class Check In</string>
+
+    <string name="action_getstudents">Get check-ins!</string>
+</resources>
