@@ -115,7 +115,7 @@ public class MainActivity extends ActionBarActivity {
         builder.setTitle("Email students?");
         builder.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
-                DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+                DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
                 Date date = new Date();
 
                 String emailBody = "List of students who attended class on " + dateFormat.format(date) + "\n";
